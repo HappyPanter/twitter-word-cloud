@@ -81,7 +81,7 @@ def remove_mentions(tweet):
 def remove_reserved_words(tweet):
     return re.sub(r'^(RT|FAV)', '', tweet)
 
-# remove enoji and some unicode chars from tweet text
+# remove emoji and some unicode chars from tweet text
 
 
 def remove_emoji(tweet):
